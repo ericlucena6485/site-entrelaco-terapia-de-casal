@@ -10,9 +10,9 @@ Site institucional estático para **Entrelaço Terapia de Casal**.
 
 ## Fotos
 Adicione as fotos profissionais com estes nomes:
-- `assets/alexandra-principal.jpg` — foto principal
-- `assets/alexandra-sobre.jpg` — foto da seção "Sobre mim"
-- `assets/alexandra-consultorio.jpg` — imagem complementar
+- foto principal
+- foto da seção "Sobre mim"
+- imagem complementar
 
 Se os arquivos ainda não existirem, o site exibe um placeholder.
 
