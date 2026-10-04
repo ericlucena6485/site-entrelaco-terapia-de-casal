@@ -1,0 +1,42 @@
+:root{
+  --bg:#fbf8f3;--soft:#f1ebe3;--paper:#fffdf9;--ink:#29312e;--muted:#6c746f;
+  --sage:#6e8074;--deep:#46594f;--line:#ded8cf;--radius:24px
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.7}
+a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 40px));margin:auto}.narrow{max-width:850px;text-align:center}
+.header{position:sticky;top:0;z-index:20;background:rgba(251,248,243,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(222,216,207,.65)}
+.nav{height:84px;display:flex;align-items:center;gap:28px}.brand{display:flex;align-items:center;gap:10px;font-family:"Playfair Display",serif;font-size:23px;line-height:1}.brand small{display:block;font-family:"DM Sans";font-size:9px;letter-spacing:.16em;text-transform:uppercase;margin-top:6px;color:var(--muted)}
+.brand-mark{font-size:34px;color:var(--sage)}.menu{display:flex;gap:23px;margin-left:auto;font-size:14px}.menu a:hover{color:var(--sage)}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--deep);color:#fff;padding:14px 22px;border-radius:999px;font-weight:600;font-size:14px;transition:.2s}.btn:hover{transform:translateY(-2px);opacity:.92}.btn-small{padding:11px 17px;font-size:13px}.menu-toggle{display:none;border:0;background:none;font-size:25px}
+.hero{padding:80px 0 70px}.hero-grid{display:grid;grid-template-columns:1.05fr .8fr;gap:80px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.17em;font-size:11px;font-weight:600;color:var(--sage)}
+h1,h2,h3{font-family:"Playfair Display",serif;font-weight:500;line-height:1.13;margin:14px 0}h1{font-size:clamp(48px,6vw,76px);letter-spacing:-.035em}h1 em{font-weight:500;color:var(--sage)}h2{font-size:clamp(34px,4vw,50px);letter-spacing:-.02em}h3{font-size:24px}
+.hero-copy>p{font-size:18px;color:var(--muted);max-width:650px}.actions{display:flex;gap:22px;align-items:center;margin-top:30px}.text-link{font-size:14px;font-weight:600}.trust-row{display:flex;gap:25px;margin-top:30px;color:var(--muted);font-size:13px}
+.photo-placeholder{min-height:570px;border-radius:180px 180px 24px 24px;background:linear-gradient(145deg,#ded7cc,#b8c0b8);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-align:center;background-image:url("assets/alexandra-principal.jpg");background-size:cover;background-position:center}.photo-placeholder small{opacity:.8}.hero-photo{position:relative}.quote-card{position:absolute;left:-45px;bottom:35px;width:260px;background:var(--paper);padding:22px;border-radius:16px;box-shadow:0 18px 50px rgba(55,61,57,.12);font-family:"Playfair Display",serif;font-size:18px}
+.section{padding:100px 0}.intro{padding-top:60px}.intro p{color:var(--muted);font-size:17px}.soft{background:var(--soft)}.section-head{display:grid;grid-template-columns:1fr .8fr;gap:80px;align-items:end;margin-bottom:45px}.section-head p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--paper);padding:35px;border-radius:var(--radius);border:1px solid var(--line)}.card>span{font-family:"Playfair Display";color:var(--sage);font-size:14px}.card p,.content-card p{color:var(--muted)}
+.about-grid{display:grid;grid-template-columns:.8fr 1fr;gap:90px;align-items:center}.portrait{min-height:610px;border-radius:24px 180px 24px 24px;background-image:url("assets/alexandra-sobre.jpg")}.role{color:var(--sage);font-weight:600}.about-copy>p:not(.role){color:var(--muted)}.credentials{margin-top:30px;border-top:1px solid var(--line)}.credentials div{display:grid;grid-template-columns:150px 1fr;padding:15px 0;border-bottom:1px solid var(--line);font-size:14px}.credentials span{color:var(--muted)}
+.accent{background:var(--deep);color:#fff}.service-grid{display:grid;grid-template-columns:1fr .75fr;gap:100px}.accent p{color:#d8dfda}.light{color:#c7d2ca}.service-info{display:grid;gap:20px}.service-info div{padding-bottom:18px;border-bottom:1px solid rgba(255,255,255,.2)}.service-info small,.service-info strong{display:block}.service-info small{color:#c7d2ca}.btn-light{background:#fff;color:var(--deep);width:max-content;margin-top:10px}
+.content-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.content-card{padding:30px 0;border-top:1px solid var(--line)}.content-card>span{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--sage)}.instagram-call{text-align:center;margin-top:45px}.instagram-call a{font-weight:600;text-decoration:underline}
+.contact{padding-top:40px}.contact-box{text-align:center;background:var(--soft);border-radius:36px;padding:80px 25px}.contact-box p{color:var(--muted);max-width:600px;margin:0 auto 25px}.instagram{display:block;margin-top:20px;font-size:14px;color:var(--sage)}
+footer{border-top:1px solid var(--line);padding:35px 0}.footer-grid{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer-grid p{font-size:12px;color:var(--muted)}.footer-brand{font-size:18px}
+.floating-wa{position:fixed;right:22px;bottom:22px;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:var(--deep);color:white;font-weight:700;box-shadow:0 10px 30px rgba(0,0,0,.18);z-index:30}
+.reveal{opacity:0;transform:translateY(16px);transition:.7s ease}.reveal.visible{opacity:1;transform:none}
+@media(max-width:900px){.desktop-cta{display:none}.menu-toggle{display:block;margin-left:auto}.menu{display:none;position:absolute;top:84px;left:0;right:0;background:var(--bg);padding:25px 20px;border-bottom:1px solid var(--line);flex-direction:column}.menu.open{display:flex}.hero-grid,.about-grid,.service-grid,.section-head{grid-template-columns:1fr;gap:40px}.hero{padding-top:45px}.hero-photo{max-width:600px;margin:auto}.quote-card{left:15px}.cards,.content-grid{grid-template-columns:1fr}.section{padding:75px 0}.footer-grid{flex-direction:column;text-align:center}}
+@media(max-width:560px){.container{width:min(100% - 28px,1160px)}h1{font-size:45px}.photo-placeholder{min-height:480px}.quote-card{position:relative;left:auto;bottom:auto;width:90%;margin:-45px auto 0}.actions,.trust-row{align-items:flex-start;flex-direction:column;gap:14px}.credentials div{grid-template-columns:1fr;gap:3px}.contact-box{padding:60px 20px}}
+
+/* Versão 2 — fotos profissionais e identidade inspirada no ensaio */
+:root{--petrol:#176c72;--petrol-deep:#11575d;--cream:#fbf6ee;--warm:#e8ded0}
+.hero{background:radial-gradient(circle at 85% 15%,rgba(23,108,114,.08),transparent 32%)}
+.photo-placeholder{background-color:#d9d8d2;background-repeat:no-repeat}
+.hero-photo .photo-placeholder{background-position:center 25%}
+.about-photo .portrait{background-position:center 35%}
+.brand-mark,.eyebrow,.role,.content-card>span,.instagram-call a,.instagram{color:var(--petrol)}
+.btn,.floating-wa{background:var(--petrol-deep)}
+.btn:hover{background:var(--petrol)}
+.accent{background:linear-gradient(135deg,var(--petrol-deep),#284f4e)}
+.soft,.contact-box{background:#f2ece3}
+.visual-break{padding:35px 0 100px}
+.visual-break-grid{display:grid;grid-template-columns:1.05fr .85fr;gap:70px;align-items:center}
+.visual-break-image{min-height:520px;border-radius:28px;background:url("assets/alexandra-consultorio.jpg") center 38%/cover no-repeat;box-shadow:0 24px 60px rgba(44,58,52,.12)}
+.visual-break-copy p{color:var(--muted);font-size:17px}
+@media(max-width:900px){.visual-break-grid{grid-template-columns:1fr;gap:35px}.visual-break-image{min-height:430px}.visual-break{padding-bottom:75px}}
